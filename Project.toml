@@ -3,6 +3,9 @@ uuid = "64bdcc47-5977-45f9-887c-6c59f4ca8dcb"
 authors = ["Tobi Lipede <t.lipede@gmail.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+
 [compat]
 julia = "1"
 

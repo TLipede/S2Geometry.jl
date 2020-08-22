@@ -1,5 +1,9 @@
 module S2Geometry
 
-# Write your package code here.
+using Reexport
+
+include("R1/R1.jl")
+
+@reexport using .R1
 
 end
